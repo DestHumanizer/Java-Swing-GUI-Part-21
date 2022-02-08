@@ -1,5 +1,6 @@
 # Java-Swing-GUI-Part-21
 Java Swing GUI Part#21:JTree creation using DefaultMutableTreeNode class |JTree Components &amp; Methods
+		
 	import java.util.*;
 	import javax.swing.*;
 	import java.awt.*;
@@ -38,8 +39,8 @@ Java Swing GUI Part#21:JTree creation using DefaultMutableTreeNode class |JTree 
 			add(box);
 
 			JPanel panel = new JPanel();
-			//TitledBorder title = BorderFactory.createTitledBorder("Hello");
-			//setBorder(title);
+			TitledBorder title = BorderFactory.createTitledBorder("Hello");
+			setBorder(title);
 
 			JRadioButton radio = new JRadioButton("aa");
 			JRadioButton radio1 = new JRadioButton("aa");
